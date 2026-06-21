@@ -1,4 +1,6 @@
-// Inside src/app/_components/header.tsx
+import Link from "next/link";
+import Container from "@/app/_components/container"; 
+import { ThemeSwitcher } from "@/app/_components/theme-switcher";
 
 const Header = () => {
   return (
