@@ -3,8 +3,8 @@ import Container from "@/app/_components/container";
 export default function AboutPage() {
   return (
     <Container>
-      <div className="py-16 max-w-4xl mx-auto">
-        <h1 className="text-5xl md:text-7xl font-bold tracking-tighter leading-tight mb-8 text-black dark:text-white">
+      <div className="py-16 max-w-5xl mx-auto">
+        <h1 className="text-5xl md:text-7xl font-bold tracking-tighter leading-tight mb-8">
           About Me.
         </h1>
         
