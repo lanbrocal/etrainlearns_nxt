@@ -8,16 +8,15 @@ export default function AboutPage() {
           About Me.
         </h1>
         
+        {/* Mirroring the text styling and spacing from the projects page */}
         <div className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed space-y-8">
           
-          {/* Introduction */}
           <p className="text-xl font-medium text-neutral-800 dark:text-neutral-200">
             Hi, I'm Elliot (but you probably know me as Etrain). I'm a Florida-based IT professional currently working in desktop support, with a heavy focus on transitioning into cloud infrastructure and network automation.
           </p>
 
           <hr className="border-neutral-200 dark:border-neutral-800 my-8" />
 
-          {/* What I Do Section */}
           <div>
             <h2 className="text-3xl font-bold mb-4 text-black dark:text-white">What I Do</h2>
             <p>
@@ -25,7 +24,6 @@ export default function AboutPage() {
             </p>
           </div>
 
-          {/* Education & Certs */}
           <div>
             <h2 className="text-3xl font-bold mb-4 mt-8 text-black dark:text-white">Education & Certifications</h2>
             <p className="mb-4">
@@ -38,7 +36,6 @@ export default function AboutPage() {
             </ul>
           </div>
 
-          {/* Hobbies / Personal Life */}
           <div>
             <h2 className="text-3xl font-bold mb-4 mt-8 text-black dark:text-white">Off the Clock</h2>
             <p>
