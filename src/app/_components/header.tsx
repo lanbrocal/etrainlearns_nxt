@@ -7,7 +7,7 @@ const Header = () => {
       {/* Left Side: Brand */}
       <h2 className="text-2xl md:text-3xl font-bold tracking-tight md:tracking-tighter leading-tight">
         <Link href="/" className="hover:text-blue-600 transition-colors">
-          Etrain
+          Etrain Learns
         </Link>
       </h2>
 
