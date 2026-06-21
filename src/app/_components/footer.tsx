@@ -8,7 +8,7 @@ export function Footer() {
           
           {/* Left Side: Copyright */}
           <div className="text-sm text-neutral-500 dark:text-neutral-400 mb-6 lg:mb-0">
-            &copy; {new Date().getFullYear()} Etrain. All rights reserved.
+            &copy; {new Date().getFullYear()} Etrain Learns. All rights reserved.
           </div>
 
           {/* Right Side: Social Links */}
